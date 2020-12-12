@@ -4,16 +4,16 @@ import 'firebase/firestore';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyANfaQQ1nloWm7tJ6eQ-CUUOOOdpaHbsjk",
-    authDomain: "rr-photo-app.firebaseapp.com",
-    databaseURL: "https://rr-photo-app.firebaseio.com",
-    projectId: "rr-photo-app",
-    storageBucket: "rr-photo-app.appspot.com",
-    messagingSenderId: "496974175629",
-    appId: "1:496974175629:web:a968710d610611494171c4"
+    apiKey: "AIzaSyA6RiUCVyETEzEh9EE9EkXs5Z9Bn-TpIqQ",
+    authDomain: "rr-photo-portfolio.firebaseapp.com",
+    projectId: "rr-photo-portfolio",
+    storageBucket: "rr-photo-portfolio.appspot.com",
+    messagingSenderId: "174838489959",
+    appId: "1:174838489959:web:12251c7e34ff401345c5c2"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
+
 
   const projectStorage = firebase.storage();
   const projectFirestore = firebase.firestore();

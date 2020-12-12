@@ -1,8 +1,8 @@
 import React, { useState} from 'react';
-import ImageGrid from './comps/ImageGrid';
-import Title from './comps/Title';
-import Upload from './comps/Upload';
-import Modal from './comps/Modal';
+import ImageGrid from './components/ImageGrid';
+import Main from './components/Main';
+import Upload from './components/Upload';
+import Modal from './components/Modal';
 
 function App() {
   
@@ -10,7 +10,7 @@ function App() {
   
   return (
     <div className="App">
-      <Title/>
+      <Main/>
       <Upload />
       <ImageGrid  setSelectedImg = {setSelectedImg} />
       {selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}

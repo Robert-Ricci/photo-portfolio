@@ -30,7 +30,7 @@ function App() {
       <Router />
       <Main />
       <Upload />
-      {/* <ImageGrid setSelectedImg = {setSelectedImg} /> */}
+      <ImageGrid setSelectedImg = {setSelectedImg} />
       {selectedImg && 
       <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}
      

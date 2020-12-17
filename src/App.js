@@ -29,7 +29,7 @@ function App() {
 </Navbar>
       <Router />
       <Main />
-      <Upload />
+      {/* <Upload /> */}
       <ImageGrid setSelectedImg = {setSelectedImg} />
       {selectedImg && 
       <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}

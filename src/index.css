@@ -104,6 +104,7 @@ label:hover{
 /* modal styles */
 
 .backdrop{
+  z-index: 100000 !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -112,6 +113,7 @@ label:hover{
   background: rgba(0,0,0,0.5);
 }
 .backdrop img{
+  z-index: 100001 !important;
   display: block;
   max-width: 60%;
   max-height: 80%;

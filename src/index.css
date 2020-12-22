@@ -121,3 +121,19 @@ label:hover{
   box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
   border: 3px solid white;
 }
+
+.about {
+  padding-top: 100px;
+}
+
+.headshot {
+  max-width: 60%;
+  max-height: 80%;
+}
+
+.about-page {
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 40px;
+}

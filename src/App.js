@@ -1,6 +1,8 @@
-import './App.css';
+// import './App.css';
 import React, { useState } from 'react';
 import Main from './components/Main';
+import "./index.css"
+
 // import Upload from './components/Upload';
 // import ImageGrid from './components/ImageGrid';
 // import Modal from './components/Modal';
@@ -8,13 +10,14 @@ import Main from './components/Main';
 import { Navbar, Nav} from 'react-bootstrap';
 import Router from './components/Router';
 
+const navbar = {backgroundColor: '#F16E10'}
 function App() {
 
   // const[selectedImg, setSelectedImg] = useState(null)
   
   return (
     <div className="App">
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+      <Navbar collapseOnSelect expand="lg"  variant="dark" fixed="top" style={navbar} >
                 <Navbar.Brand >Robert Ricci's Photo Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

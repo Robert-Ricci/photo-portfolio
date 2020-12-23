@@ -138,3 +138,7 @@ label:hover{
   grid-template-columns: 1fr 1fr ;
   grid-gap: 50px;
 }
+
+.navbar-custom { 
+  background-color: lightgreen; 
+} 

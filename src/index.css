@@ -123,17 +123,18 @@ label:hover{
 }
 
 .about {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .headshot {
-  max-width: 60%;
-  max-height: 80%;
+  padding:70px;
+  max-width: 120%;
+  max-height: 120%;
 }
 
 .about-page {
   margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  grid-gap: 40px;
+  grid-gap: 50px;
 }

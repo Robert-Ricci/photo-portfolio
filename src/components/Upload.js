@@ -9,7 +9,7 @@ const Upload = () => {
     const types = ['image/png', 'image/jpeg'];
 
     const changeHandler = (e) => {
-        // console.log("changed")
+        
         let selected = e.target.files[0]
         
         if(selected && types.includes(selected.type)) {

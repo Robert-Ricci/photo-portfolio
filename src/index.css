@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
 
 :root{
   --primary: #efb6b2;
@@ -8,8 +8,9 @@
 
 /* base styles & title */
 body{
+  background-color: #EA4C4C;
   padding-top: 75px;
-  font-family: "Noto Serif";
+  font-family: "Nova Flat";
   color: var(--secondary);
 }
 .App{
@@ -31,6 +32,8 @@ body{
 }
 
 .navbar{
+  font-family: "Nova Flat";
+  background-color: #D88A83;
   padding: 10px;
   font-size: 30px;
   text-align: center;
@@ -59,7 +62,7 @@ label{
 }
 label:hover{
   background: var(--primary);
-  color: white;
+  color: #EA4C4C;
 }
 .output{
   height: 60px;
@@ -139,6 +142,3 @@ label:hover{
   grid-gap: 50px;
 }
 
-.navbar-custom { 
-  background-color: lightgreen; 
-} 

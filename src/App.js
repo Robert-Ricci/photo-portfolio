@@ -1,23 +1,16 @@
-// import './App.css';
 import React, { useState } from 'react';
-import Main from './components/Main';
 import "./index.css"
-
-// import Upload from './components/Upload';
-// import ImageGrid from './components/ImageGrid';
-// import Modal from './components/Modal';
 
 import { Navbar, Nav} from 'react-bootstrap';
 import Router from './components/Router';
 
-const navbar = {backgroundColor: '#F16E10'}
+// const navbar = {backgroundColor: '#D88A83'}
 function App() {
 
-  // const[selectedImg, setSelectedImg] = useState(null)
   
   return (
     <div className="App">
-      <Navbar collapseOnSelect expand="lg"  variant="dark" fixed="top" style={navbar} >
+      <Navbar className="navbar" collapseOnSelect expand="lg"  variant="dark" fixed="top"  >
                 <Navbar.Brand >Robert Ricci's Photo Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -29,11 +22,6 @@ function App() {
   </Navbar.Collapse>
 </Navbar>
       <Router />
-      {/* <Main /> */}
-      
-      {/* <ImageGrid setSelectedImg = {setSelectedImg} />
-      {selectedImg && 
-      <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />} */}
      
     </div>
   );

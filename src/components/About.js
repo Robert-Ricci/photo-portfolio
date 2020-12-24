@@ -10,7 +10,7 @@ const About = () => {
             
            When I decided that I wanted to make a photo portfolio, I kept thinking about the different sites I could use. Then it came to me, wouldn't it be cool if I created the page myself. So I looked up some ideas, and settled on React.
            
-           So, this page uses React, Framer Motion, and React-Bootstrap. I plan on editing and making it better as time goes by, but for know this is what I came up with
+           So, this page uses React, Framer Motion, and React-Bootstrap. I plan on editing and making it better as time goes by, but for know this is what I came up with. If you like any of the photos reachout and let me know. 
            </p>
             <Image className="headshot" src={Headshot} roundedCircle />
         </div>

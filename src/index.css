@@ -8,7 +8,7 @@
 
 /* base styles & title */
 body{
-  background-color: #EA4C4C;
+  background-color: #f2eaec;
   padding-top: 75px;
   font-family: "Nova Flat";
   color: var(--secondary);
@@ -65,7 +65,7 @@ label{
 }
 label:hover{
   background: var(--primary);
-  color: #EA4C4C;
+  color: #f2eaec;
 }
 .output{
   height: 60px;

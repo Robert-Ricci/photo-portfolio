@@ -1,3 +1,5 @@
+import firebase from 'firebase/app';
+
 const IfUnAuthed = () => {
     return (
       <div>
@@ -24,3 +26,4 @@ const IfUnAuthed = () => {
     );
   };
   
+  export default IfUnAuthed;

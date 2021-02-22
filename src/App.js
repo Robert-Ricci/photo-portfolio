@@ -6,7 +6,7 @@ import Router from './components/Router';
 // import ImageGrid from './components/ImageGrid';
 // import Modal from './components/Modal';
 
-// const navbar = {backgroundColor: '#D88A83'}
+const navbar = {backgroundColor: '#D88A83'}
 
 function App() {
   

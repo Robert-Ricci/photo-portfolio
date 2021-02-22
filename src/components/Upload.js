@@ -1,15 +1,22 @@
 import React, { useState } from 'react';
+import "firebase/auth";
 import ProgressBar from './ProgressBar';
+import firebase from 'firebase/app';
+import Button from 'react-bootstrap/button';
 
 const Upload = () => {
     
+    
+   
+  
+
     const [file, setFile] = useState(null)
     const [error, setError] = useState(null)
 
     const types = ['image/png', 'image/jpeg'];
 
     const changeHandler = (e) => {
-        console.log("changed")
+        
         let selected = e.target.files[0]
         
         if(selected && types.includes(selected.type)) {
@@ -22,16 +29,31 @@ const Upload = () => {
     }
     
     return (
-        <form >
+
+          <form >
             <input type="file" onChange = {changeHandler}/>
             <div className = "output">
                 {error && <div className="error"> {error} </div>}
                 {file && <div> { file.name } </div>}
                 {file && <ProgressBar file={file} setFile= {setFile} />}
+<br/>
+<br/>
+<br/>
+
+                <Button
+    onClick={() => {
+      const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+      firebase.auth().signInWithPopup(googleAuthProvider);
+    }}
+  >
+    Sign in with Google
+  </Button>
             </div>
             
         </form>
     );
+
+    
 };
 
 export default Upload;
